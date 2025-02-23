@@ -1,6 +1,6 @@
+Hellow Viewers, While learning SQL, I've tried making queries to do some research and answer to some Questionnaire
+	
 Please find resource database and tables link used for doing the research: https://www.sqltutorial.org/sql-sample-database/
-
-
 
 --1 To find those employees whose salaries are less than 6000. Return full name (first and last name) and salary.
 select concat(employees.first_name, ' ',employees.last_name), employees.salary from employees where employees.salary > '6000';
